@@ -1,94 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Block or Inline</title>
-  <style>
-    /* Optional basic styling to visually separate each example */
-    div {
-      border: 1px solid #ccc;
-      padding: 8px;
-      margin: 8px 0;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block or Inline Elements</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- 1. button -->
-  <div data-ns-test="block-inline-button">
-    <button>Test1</button>
-    <button>Test2</button>
-    <p>Answer: Inline</p>
-  </div>
+  <div class="container">
+    
+    <div class="element">
+      <button data-ns-test="block-inline-button">Test1</button>
+      <button data-ns-test="block-inline-button">Test2</button>
+      Answer: Inline
+    </div>
 
-  <!-- 2. div -->
-  <div data-ns-test="block-inline-div">
-    <div>Test1</div>
-    <div>Test2</div>
-    <p>Answer: Block</p>
-  </div>
+    <div class="element">
+      <div data-ns-test="block-inline-div">Test1</div>
+      <div data-ns-test="block-inline-div">Test2</div>
+      Answer: Block
+    </div>
 
-  <!-- 3. span -->
-  <div data-ns-test="block-inline-span">
-    <span>Test1</span>
-    <span>Test2</span>
-    <p>Answer: Inline</p>
-  </div>
+    <div class="element">
+      <span data-ns-test="block-inline-span">Test1</span>
+      <span data-ns-test="block-inline-span">Test2</span>
+      Answer: Inline
+    </div>
 
-  <!-- 4. p -->
-  <div data-ns-test="block-inline-p">
-    <p>Test1</p>
-    <p>Test2</p>
-    <p>Answer: Block</p>
-  </div>
+    <div class="element">
+      <p data-ns-test="block-inline-p">Test1</p>
+      <p data-ns-test="block-inline-p">Test2</p>
+      Answer: Block
+    </div>
 
-  <!-- 5. blockquote -->
-  <div data-ns-test="block-inline-blockquote">
-    <blockquote>Test1</blockquote>
-    <blockquote>Test2</blockquote>
-    <p>Answer: Block</p>
-  </div>
+    <div class="element">
+      <input type="text" data-ns-test="block-inline-input" value="Test1">
+      <input type="text" data-ns-test="block-inline-input" value="Test2">
+      Answer: Inline
+    </div>
 
-  <!-- 6. input -->
-  <div data-ns-test="block-inline-input">
-    <input type="text" value="Test1">
-    <input type="text" value="Test2">
-    <p>Answer: Inline</p>
-  </div>
+    <div class="element">
+      <cite data-ns-test="block-inline-cite">Test1</cite>
+      <cite data-ns-test="block-inline-cite">Test2</cite>
+      Answer: Inline
+    </div>
 
-  <!-- 7. cite -->
-  <div data-ns-test="block-inline-cite">
-    <cite>Test1</cite>
-    <cite>Test2</cite>
-    <p>Answer: Inline</p>
-  </div>
+    <div class="element">
+      <code data-ns-test="block-inline-code">Test1</code>
+      <code data-ns-test="block-inline-code">Test2</code>
+      Answer: Inline
+    </div>
 
-  <!-- 8. code -->
-  <div data-ns-test="block-inline-code">
-    <code>Test1</code>
-    <code>Test2</code>
-    <p>Answer: Inline</p>
-  </div>
+    <div class="element">
+      <h1 data-ns-test="block-inline-h1">Test1</h1>
+      <h1 data-ns-test="block-inline-h1">Test2</h1>
+      Answer: Block
+    </div>
 
-  <!-- 9. h1 -->
-  <div data-ns-test="block-inline-h1">
-    <h1>Test1</h1>
-    <h1>Test2</h1>
-    <p>Answer: Block</p>
-  </div>
+    <div class="element">
+      <sup data-ns-test="block-inline-sup">Test1</sup>
+      <sup data-ns-test="block-inline-sup">Test2</sup>
+      Answer: Inline
+    </div>
 
-  <!-- 10. h2 -->
-  <div data-ns-test="block-inline-h2">
-    <h2>Test1</h2>
-    <h2>Test2</h2>
-    <p>Answer: Block</p>
-  </div>
+    <div class="element">
+      <sub data-ns-test="block-inline-sub">Test1</sub>
+      <sub data-ns-test="block-inline-sub">Test2</sub>
+      Answer: Inline
+    </div>
 
-  <!-- 11. sub -->
-  <div data-ns-test="block-inline-sub">
-    <sub>Test1</sub>
-    <sub>Test2</sub>
-    <p>Answer: Inline</p>
   </div>
 
 </body>
